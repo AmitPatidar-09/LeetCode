@@ -11,6 +11,6 @@ public:
                 smallest = nums[i];
             }
         }
-        return __gcd(largest, smallest);
+        return gcd(largest, smallest);
     }
 };
