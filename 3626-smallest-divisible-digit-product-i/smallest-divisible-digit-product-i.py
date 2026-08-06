@@ -6,7 +6,7 @@ class Solution:
             for i in s:
                 pro*=int(i)
             if(pro%t==0):
-                return int(n)
+                return n
             n+=1
 
         
